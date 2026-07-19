@@ -1,0 +1,27 @@
+RS-485 Transceiver THVD1420DRLR (1)
+	https://www.digikey.com/en/products/detail/texas-instruments/THVD1420DRLR/15856992
+
+
+
+1x2 Screw Terminal OSTTE020104 (3)
+	https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTE020104/2351816
+	
+JST SH 4 pin Connectors (10 pack) (1)
+	https://www.adafruit.com/product/4328
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-SRSS-TB/926696
+
+RJ45 Connector (1)
+	https://www.digikey.com/en/products/detail/abracon-llc/ARJM11D7-009-NN-EW2/7675212
+
+
+
+120Ω Resistor ERJ-P06J121V (1)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J121V/525207
+750Ω Resistor ERJ-P06J751V (2)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J751V/525301
+10kΩ Resistor ERJ-P06J103V (2)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J103V/525198
+
+
+100nF 50V Capacitor C1608X5R1H104K080AA (2)
+	https://www.digikey.com/en/products/detail/tdk/C1608X5R1H104K080AA/2732891

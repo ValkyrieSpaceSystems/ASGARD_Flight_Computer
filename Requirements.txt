@@ -1,0 +1,67 @@
+Core Features
+
+Dual Deploy and Stage Ignition
+Position, Velocity, Acceleration, Attitude (PVAA)
+Navigation
+	TVC
+	Fin Deflection
+Telemetry
+	Interface Independent (Radio, USB, RS-485, etc)
+Data Logging (Sensor data, current and continuity, ground station commands)
+Arming/Power for Pyros, Cameras, and Servos
+	Current Sensing and Continuity
+	Fuses
+	Onboard Switches and Digital Control
+Battery Power
+54mm/2.14in Outer Diameter
+Expansion Connections
+Redundancy
+Launch Abort/Misfire
+
+
+Expansion Features
+
+Cameras (Current sensor)
+Extra Sensors
+Payload
+Multi-Stage
+Waypoint Guidance
+GPIO Expansion (MCP23017T-E/SO)
+RS-485 (THVD1420DRLR)
+Bluetooth/WiFi
+High Power Servo Expansion
+Pyro Expansion
+
+
+
+
+Core Capabilities
+
+6 Pyro Channels (2 per Charge) (Drogue, Main, and Motor)
+Barometer, Magnetometer, IMUs (High-G)
+GPS
+6 Servos (LiPo or 5V) (4 Fins, 2 TVC)
+Radio (UART Connector)
+128 MB Flash (Teensy)
+Micro SD Card (Teensy)
+MOSFETS (High side for pyros, low side for pyros and servos)
+2S-4S LiPo (7.4V-14.8V) (4 hours idle?)
+Expansion Buses (SPI, UART, I2C, and CAN ports for expansion to auxiliary boards)
+External Switches (Fingertech Mini)
+
+
+
+
+Ideas
+
+Communications protocol [Start byte] [Length of Payload (n+1)] [COBS] [Header (4 bit Receiver ID and 4 bit Sender ID)] [Packet Type (Commands (Fins, Pyros, Arming), Telemetry (GPS, Altitude, Acceleration, Velocity))] [Packet ID] [Packet Time] [Data 0] [Data 1] ... [Data n] [Checksum]. Works independent of physical connection, so it can work over radio, can, usb, rs485, etc to communicate between vehicle(s) and ground station(s). On startup checks which interfaces are available (RS-485, USB, radio, etc) and listens. Communications acknowledgeded with the Packet ID and checksum of the payload. Error detection and correction for whole packet (since the value of the last COBS byte is almost freely chosen (anything from 29 to 255 is possible), if the CRC evaluates to 0xAA, just change one bit of that byte and the CRC will now be different). Unacknowledged commands get resent after ___ms if they're not dangerous and dangerous commands ask for a reachnowledgement and raise a flag in MIDGARD, but telemetry doesn't get resent unless too many packets are missed (counter of time since last packet per telemetry type). 
+Kalman filter for all flight control sensors. Don't trust barometers after transonic. On startup detects which sensors are connected (tries all known SPI CS, tries all known I2C addresses, I2C bus scan, tries all UART, tries CAN). 
+Write data to Teensy pcb flash then dump to sd card after drogue (redundancy) and again after landing. 
+Redundancy. Double pyro channels. Multiple data storage devices (Copy flash memory to SD Card after landing). Backup drogue pyro charge (motor eject). If no drogue deploy ( > 100? m/s after apogee), deploy main. 
+Arming Control/Power Toggle (Pyros, Cameras, and Servos). Physical Circuit Switches (Pyros, Servos). Remote Digital Arming (High side mosfets) (Pyros, Cameras, and Servos) (Authentication, Fail safe, Radio Communications). Pyros arm in flight after either altitude reached or flight state reached. 
+Manual remote bypass switch (if radio issues) (GPIO 32 read, pulled up active low) that sets flight computer to autonomous mode and waits for launch event to arm and fire recovery pyros (still tries to transmit). 
+Servo power controlled by bridging connections on the board. Servos are powered in groups (4 fins, 2 TVC)
+Calibrate accelerometer on the ground and implement live accelerometer bias calculations in Kalman filter
+Coordinate System X, Y horizontal axes, Z vertical axis aligned to PCB/Teensy (Measured from Teensy MCU: USB Z+, SD Card Z-, Air X+, Teensy Board X-, Pin 15 Y+, Pin 10 Y-). Add offset system to account for PCB not being in the same reference plane as the vehicle. 
+On startup, computer will acquire the ground system and report its configured settings, date of settings, and checksum of those settings. Ground control will compare to its expected configurations. 
+Diodes on teensy to connect USB and 5V https://forum.pjrc.com/index.php?threads/best-way-to-power-a-teensy-4-1-and-devices.76530/

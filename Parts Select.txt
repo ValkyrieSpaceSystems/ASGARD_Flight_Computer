@@ -1,0 +1,192 @@
+Low Altitude Barometer BMP581 (1)
+	https://www.digikey.com/en/products/detail/bosch-sensortec/BMP581/16036134
+	https://www.adafruit.com/product/6407
+	https://www.sparkfun.com/sparkfun-micro-pressure-sensor-bmp581-qwiic.html
+	https://github.com/adafruit/Adafruit_BMP5xx
+	
+High Altitude Barometer MS560702BA03-50 (1)
+	https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700931
+	https://github.com/UravuLabs/MS5607
+
+Low-G IMU BMI270 (1)
+	https://www.digikey.com/en/products/detail/bosch-sensortec/BMI270/9974486
+	https://www.sparkfun.com/sparkfun-6dof-imu-breakout-bmi270-qwiic.html
+	https://github.com/sparkfun/SparkFun_BMI270_Arduino_Library
+
+Mid-G IMU BMI088 (1)
+	https://www.digikey.com/en/products/detail/bosch-sensortec/BMI088/8634936
+	https://www.mouser.com/ProductDetail/Bosch-Sensortec/BMI088?qs=f9yNj16SXrIMFspTV6RB6Q%3D%3D
+	https://github.com/AeroStrike/BMI088-Breakout-Board
+	https://github.com/bolderflight/bmi088-arduino
+
+High-G Accelerometer H3LIS331DLTR (1)
+	https://www.digikey.com/en/products/detail/stmicroelectronics/H3LIS331DLTR/4311633
+	https://www.adafruit.com/product/4627
+	https://www.sparkfun.com/sparkfun-triple-axis-accelerometer-breakout-h3lis331dl.html
+	https://github.com/sparkfun/SparkFun_LIS331_Arduino_Library
+
+Magnetometer MMC5983MA (1)
+	https://www.digikey.com/en/products/detail/memsic-inc/MMC5983MA/10452795
+	https://www.sparkfun.com/sparkfun-micro-magnetometer-mmc5983ma-qwiic.html
+	https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library
+	
+	
+
+Radio XBEE-PRO 900HP (1)
+	https://www.tinyosshop.com/index.php?route=product/product&product_id=358
+	https://www.digikey.com/en/products/detail/digi/XBP9B-DMST-002/3594157
+	https://docs.digi.com//resources/documentation/digidocs/pdfs/90002474.pdf
+	https://how2electronics.com/how-to-set-up-interface-xbee-module-with-arduino-tx-rx/
+	https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu/all
+	https://cse.google.com/cse?cx=008830049033802121810%3Azgsyidwem5w&q=xbee
+	
+Radio ELRS (1)
+
+GNSS MAX-M10S-00B (1)
+	https://www.digikey.com/en/products/detail/u-blox/MAX-M10S-00B/15712909
+	https://www.sparkfun.com/sparkfun-gnss-receiver-breakout-max-m10s-qwiic.html
+	https://github.com/sparkfun/SparkFun_u-blox_GNSS_v3
+	https://content.u-blox.com/sites/default/files/MAX-M10S_IntegrationManual_UBX-20053088.pdf
+
+
+
+Flash W25Q128JVSIQ TR (1)
+	https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ-TR/5803944
+	https://www.hackster.io/news/adding-more-ram-and-flash-to-the-teensy-4-1-89e527855502
+	https://github.com/PaulStoffregen/LittleFS
+	
+CANbus Transceiver TCAN332GDCNR (1)
+	https://www.digikey.com/en/products/detail/texas-instruments/TCAN332GDCNR/6572320
+	https://github.com/tonton81/FlexCAN_T4
+	
+5V Buck Converter LMR51460FSQDRRRQ1 (1)
+	https://www.digikey.com/en/products/detail/texas-instruments/LMR51460FSQDRRRQ1/25318369
+	
+Current Monitor INA226AIDGSR (1)
+	https://www.digikey.com/en/products/detail/texas-instruments/INA226AIDGSR/2687236
+	https://github.com/RobTillaart/INA226
+
+
+
+P-Channel MOSFET 6.9A SQ3419CEV-T1_GE3 (1)
+	https://www.digikey.com/en/products/detail/vishay-siliconix/SQ3419CEV-T1-GE3/22080316
+	https://www.adafruit.com/product/1794
+N-Channel MOSFET 5A SI2318A-TP (6)
+	https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SI2318A-TP/965103 mm5963
+	https://www.adafruit.com/product/355
+N-Channel MOSFET 17A BSC059N04LS6ATMA1 (2)
+	https://www.digikey.com/en/products/detail/infineon-technologies/BSC059N04LS6ATMA1/9829538
+NPN Transistor 2N3904 (1)
+	https://www.digikey.com/en/products/detail/diotec-semiconductor/2N3904/13164701
+	https://www.sparkfun.com/bag-o-transistors.html
+
+
+
+ - Battery
+ 	-
+
+Fingertech Mini Switch (3)
+	https://www.csrocketry.com/electronics/altus-metrum/fingertech-mini-switch.html
+	
+	
+E-Match Starter Kit
+	https://www.apogeerockets.com/Rocket-Motors/Motor-Starters/E-match-Starter-Kit
+	
+
+
+SMA Connector (1)
+	https://www.digikey.com/en/products/detail/adam-tech/RF2-04A-T-00-50-G/9830588
+
+Battery Plugs XT60 (1M & 1F) FIT0587 (1)
+	https://www.digikey.com/en/products/detail/dfrobot/FIT0587/9559256
+	
+1x2 Screw Terminal OSTTE020104 (17)
+	https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTE020104/2351816
+	
+Pin Headers (50M) (48F)
+	2x3M (4) (Servo PWR/GND Select)
+	1x3M (6) (Servos)
+	1x2M (4) (I2C Jumpers)
+	1x24F (2) (Teensy)
+Pin Jumpers 0015381026 (11 max)
+	https://www.digikey.com/en/products/detail/molex/0015381026/315124
+
+JST SH 2 pin Connectors (1)
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM02B-SRSS-TB/926694
+JST SH 3 pin Connectors (1)
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM03B-SRSS-TB/926695
+JST SH 4 pin Connectors (10 pack) (4)
+	https://www.adafruit.com/product/4328
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-SRSS-TB/926696
+JST SH 5 pin Connectors (2)
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM05B-SRSS-TB/926697
+JST SH 8 pin Connectors (0)
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM08B-SRSS-TB/926700
+
+
+
+Buzzer CPT-9019A-SMT-TR (1)
+	https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CPT-9019A-SMT-TR/19105220
+NEOPIXEL (1)
+	https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/1315050930002/22677876
+	https://www.adafruit.com/product/1655
+	https://github.com/adafruit/Adafruit_NeoPixel
+Red Indicator LEDs LTST-C191KRKT (6)
+	https://www.digikey.com/en/products/detail/liteon/LTST-C191KRKT/386837
+Green Indicator LEDs LTST-C191KGKT (1)
+	https://www.digikey.com/en/products/detail/liteon/LTST-C191KGKT/386835
+Orange Indicator LEDs LTST-C191KFKT (6)
+	https://www.digikey.com/en/products/detail/liteon/LTST-C191KFKT/386833
+
+
+5mΩ Shunt Resistor WSLP27265L000FEA (1)
+	https://www.digikey.com/en/products/detail/vishay-dale/WSLP27265L000FEA/9751106
+5Ω Resisotr ERJ-P06J5R1V (6)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J5R1V/9812037
+10Ω Resistor ERJ-P06J100V (10)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J100V/525195
+120Ω Resistor ERJ-P06J121V (4)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J121V/525207
+470Ω Resistor ERJ-P06J471V (2)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J471V/525276
+750Ω Resistor ERJ-P06J751V (9)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J751V/525301
+1kΩ Resistor ERJ-P06J102V (0)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J102V/525197
+4.7kΩ Resistor ERJ-P06J472V (4)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J472V/525277
+10kΩ Resistor ERJ-P06J103V (20)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J103V/525198
+19.1kΩ Resistor CRCW080519K1FKEAHP (1)
+	https://www.digikey.com/en/products/detail/vishay-dale/CRCW080519K1FKEAHP/2227102
+27kΩ Resistor ERJ-P06J273V (1)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J273V/525249
+100kΩ Resistor ERJ-P06J104V (2)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J104V/525199
+
+
+47pF 50V Capacitor CL10C470JB8NNNC (1)
+	https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C470JB8NNNC/3886695
+10nF 50V Capacitor C0603C103K5RACTU (1)
+	https://www.digikey.com/en/products/detail/kemet/C0603C103K5RACTU/411090
+100nF 50V Capacitor C1608X5R1H104K080AA (12)
+	https://www.digikey.com/en/products/detail/tdk/C1608X5R1H104K080AA/2732891
+1uF 16V Capacitor C0603C105K4RACTU (1)
+	https://www.digikey.com/en/products/detail/kemet/C0603C105K4RACTU/2199788
+10uF 25V Capacitor CL10A106MA8NRNC (3)
+	https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527
+10uF 50V Capapacitor C3225X7R1H106M250AC (2)
+	https://www.digikey.com/en/products/detail/tdk/C3225X7R1H106M250AC/3952169
+10uF 50V Polarized Capacitor 106CKH050MSA (0)
+	https://www.digikey.com/en/products/detail/cornell-dubilier-knowles/106CKH050MSA/22188172
+22uF 10V Capapacitor MSASL219LB5226MTNA01 (0)
+	https://www.digikey.com/en/products/detail/taiyo-yuden/msasl219lb5226mtna01/16660989
+47uF 16V Capacitor GRM32EC81C476KE15L (5)
+	https://www.digikey.com/en/products/detail/murata-electronics/GRM32EC81C476KE15L/5027615
+
+
+4.5uH Inductor SRR1208-4R5ML (1)
+	https://www.digikey.com/en/products/detail/bourns-inc/SRR1208-4R5ML/2352894
+27nH Inductor LQG15HS27NJ02D (1)
+	https://www.digikey.com/en/products/detail/murata-electronics/LQG15HS27NJ02D/662877
+

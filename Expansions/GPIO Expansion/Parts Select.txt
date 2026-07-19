@@ -1,0 +1,23 @@
+GPIO Expander MCP23017T-E/SO (1)
+	https://www.digikey.com/en/products/detail/microchip-technology/MCP23017T-E-SO/964184
+	https://www.adafruit.com/product/5346
+	https://github.com/adafruit/Adafruit-MCP23017-Arduino-Library
+
+
+
+1x2 Screw Terminal OSTTE020104 (8)
+	https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTE020104/2351816
+	
+Pin Headers (6M)
+	1x2M (3)
+Pin Jumpers 0015381026 (3 max)
+	https://www.digikey.com/en/products/detail/molex/0015381026/315124
+
+JST SH 4 pin Connectors (10 pack) (2)
+	https://www.adafruit.com/product/4328
+	https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-SRSS-TB/926696
+
+
+
+10kΩ Resistor ERJ-P06J103V (4)
+	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J103V/525198
