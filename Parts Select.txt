@@ -165,7 +165,7 @@ Orange Indicator LEDs LTST-C191KFKT (6)
 	https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-P06J104V/525199
 
 
-47pF 50V Capacitor CL10C470JB8NNNC (1)
+47pF 50V Capacitor CL10C470JB8NNNC (0)
 	https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C470JB8NNNC/3886695
 10nF 50V Capacitor C0603C103K5RACTU (1)
 	https://www.digikey.com/en/products/detail/kemet/C0603C103K5RACTU/411090
