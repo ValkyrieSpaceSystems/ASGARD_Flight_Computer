@@ -1,6 +1,6 @@
 # Asgard Flight Computer
 
-An open-source high power rocketry flight computer designed for long-term affordability through flexibility, modularity, and expandability. Designed to fly with [ODIN flight software](#) and communicate with the [Midgard ground station](#) over the [BIFROST protocol](#).
+An open-source high power rocketry flight computer designed for long-term affordability through flexibility, modularity, and expandability. Designed to fly with [ODIN flight software](https://github.com/ValkyrieSpaceSystems/ODIN_Flight_Software) and communicate with the [Midgard ground station](https://github.com/ValkyrieSpaceSystems/MIDGARD_Ground_Control) over the [BIFROST protocol](https://github.com/ValkyrieSpaceSystems/BIFROST_Communications_Protocol).
 
 ---
 
